@@ -1,3 +1,29 @@
+.top_nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  li {
+      display: inline;
+      padding: 8px;
+  }
+
+  .right_side_nav {
+    width: 20%;
+  }
+
+  .left_side_nav {
+    width: 20%;
+  }
+
 .google_logo {
     display:block;
     margin-left: auto;
@@ -31,4 +57,11 @@
 center {
     display: block;
     text-align: center;
+}
+
+.bottom_nav {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(187, 187, 187, 0.555);
 }
